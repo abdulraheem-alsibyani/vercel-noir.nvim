@@ -13,7 +13,7 @@ lazy.nvim:
 
 ```lua
 {
-  "abdulrheem/vercel-noir.nvim",
+  "abdulraheem-alsibyani/vercel-noir.nvim",
   lazy = false,
   priority = 1000,
   config = function()
