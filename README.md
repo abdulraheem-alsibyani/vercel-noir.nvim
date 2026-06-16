@@ -44,6 +44,15 @@ vim.cmd.colorscheme("vercel-noir")
 | variables | `#5ea8ff` |
 | numbers / constants | `#ff9e64` |
 
+## Alacritty
+
+A matching Alacritty colorscheme lives in [`extras/vercel-noir.toml`](extras/vercel-noir.toml).
+Drop it in your Alacritty config directory and import it:
+
+```toml
+import = ["~/.config/alacritty/vercel-noir.toml"]
+```
+
 ## Credits
 
 Forked from [vercel-theme.nvim](https://github.com/ceigh/vercel-theme.nvim) by Artem Lebzak.
